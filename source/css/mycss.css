@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    background: linear-gradient(88deg, #1ED6CB 0%, #191010 93%);
+    font-family: Poppins, serif;
+    color: rgb(228, 241, 241);
+}
+
+.navbar {
+    background-color: rgb(26, 29, 29);
+}
+
+.nav-link {
+    color: rgb(228, 241, 241)
+}
+
+.nav-link:hover{
+    color: aqua;
+}
+
+.navbar-nav .nav-link.active {
+    color: aqua
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(28, 145, 145);
+}
+
+.sidebar {
+    color: rgb(228, 241, 241);
+    background: linear-gradient(270deg, #15b8ad 0%, #191010 83%);
+}
+
+
+
+.card-body a {
+    text-decoration: none;
+    color: #101419;
+}
+
+.btn.btn-primary {
+    color: rgb(228, 241, 241);
+    background-color: #1a26da;
+    border-color: #1a26da;
+    box-shadow: 3px 3px 7px 1px #000;;
+}
+
+.btn.btn-primary:hover{
+    background-color: #5b65ff;
+}
+
+.slide-text,
+.footer-text{
+    color: rgb(228, 241, 241);
+    margin:auto;
+}
+
+footer{
+    background: linear-gradient(270deg, #15b8ad 0%, #191010 83%); 
+}
+
+.footer-text a{
+    color: rgb(228, 241, 241);
+    text-decoration: none;
+}
+
+.footer-list{
+    list-style: none;
+    padding-inline: 0px;
+}
+
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-me{
+    animation: phone 3s ease 0s infinite normal forwards;
+}
+
+@keyframes phone {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+
+@media(max-width:755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
